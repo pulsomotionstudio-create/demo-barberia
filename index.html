@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barbería El Patrón Cali — Sitio de demostración</title>
+  <meta name="description" content="Sitio de ejemplo de Barbería El Patrón, una barbería ficticia en San Antonio, Cali. Muestra de página web con reserva por WhatsApp.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="Barbería El Patrón Cali — Sitio de demostración">
+  <meta property="og:description" content="Página de ejemplo para una barbería ficticia en Cali: servicios, galería, horarios y reserva por WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <link rel="preload" as="image" href="img/hero.jpg">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <div class="demo-banner">
+    Sitio de demostración — Barbería ficticia de ejemplo en Cali. Los datos de contacto, precios y testimonios no son reales.
+  </div>
+
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a class="logo" href="#inicio">
+        <svg class="logo-mark" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="21" cy="21" r="19.5" fill="none" stroke="#d4b072" stroke-width="1.2"/>
+  <circle cx="21" cy="21" r="16.5" fill="none" stroke="#d4b072" stroke-width="0.5"/>
+  <text x="21" y="25.5" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#efd19a">EP</text>
+</svg>
+        <span class="logo-text">
+          <span class="logo-name">Barbería El Patrón</span>
+          <span class="logo-city">Cali · Ejemplo</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="menu">
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#opiniones">Opiniones</a>
+        <a class="btn btn-gold btn-sm" href="#reservar">Reservar cita</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-label="Presentación">
+      <div class="hero-media">
+        <img src="img/hero.jpg" alt="Interior de una barbería con sillas clásicas, ladrillo visto y luces cálidas" width="1600" height="1063">
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">San Antonio, Cali</p>
+        <h1>El corte que te queda</h1>
+        <p class="hero-lead">Clásico, fade o barba. Te atendemos sin prisa y reservas por WhatsApp en un minuto. Esta es una barbería de ejemplo, pensada para mostrar cómo se ve una página profesional.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#reservar">Reservar cita</a>
+          <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>Desde $18.000</strong><span>Precios de ejemplo en pesos</span></div>
+          <div><strong>Lun a dom</strong><span>Horario de ejemplo publicado abajo</span></div>
+          <div><strong>WhatsApp</strong><span>+57 300 000 0000 · número de ejemplo</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="nosotros" aria-labelledby="titulo-nosotros">
+      <div class="wrap about-grid">
+        <div class="about-photo">
+          <img src="img/about.jpg" alt="Barbero perfilando un corte fade con peine y tijera" width="1000" height="667">
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">La barbería</p>
+          <h2 id="titulo-nosotros">Un espacio para verse bien, sin enredos</h2>
+          <p>Barbería El Patrón es un negocio ficticio de San Antonio, Cali. La idea de esta página es mostrar cómo quedaría el sitio de un local real: clara, rápida y lista para que el cliente reserve por WhatsApp.</p>
+          <p>En un negocio de verdad, aquí iría su historia, el estilo de los barberos y lo que los diferencia. Abajo dejamos servicios, fotos, horarios y un formulario que arma el mensaje solo.</p>
+          <ul class="about-points">
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.2"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Reserva directa por WhatsApp, sin aplicaciones raras</li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.2"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Precios visibles, en pesos colombianos</li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.2"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Se ve bien en el celular, que es donde más te van a encontrar</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" aria-labelledby="titulo-servicios">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Carta de servicios</p>
+          <h2 id="titulo-servicios">Lo que pedimos en la silla</h2>
+          <p>Precios de ejemplo en pesos colombianos. En un sitio real se ajustan a lo que cobre el negocio.</p>
+          <span class="note">Precios de ejemplo</span>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Corte clásico</h3>
+            <p>Tijera y máquina, recorte de contornos y un peinado que se aguante el día.</p>
+            <div class="price">$25.000</div>
+          </article>
+          <article class="service-card">
+            <h3>Fade / diseño</h3>
+            <p>Degradado limpio, diseño a pedido y acabado con navaja en la nuca y las patillas.</p>
+            <div class="price">$35.000</div>
+          </article>
+          <article class="service-card">
+            <h3>Corte + barba</h3>
+            <p>El paquete de siempre: corte, perfilado de barba y toques finales con navaja.</p>
+            <div class="price">$42.000</div>
+          </article>
+          <article class="service-card">
+            <h3>Perfilado de barba</h3>
+            <p>Líneas definidas, hidratación y un arreglo que se ve ordenado, no exagerado.</p>
+            <div class="price">$18.000</div>
+          </article>
+          <article class="service-card">
+            <h3>Afeitado con navaja</h3>
+            <p>Toalla caliente, navaja y after shave. El ritual clásico, sin prisa.</p>
+            <div class="price">$28.000</div>
+          </article>
+          <article class="service-card">
+            <h3>Corte para niños</h3>
+            <p>Hasta 12 años. Paciente, rápido y con el mismo cuidado que un corte de adulto.</p>
+            <div class="price">$20.000</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="galeria" aria-labelledby="titulo-galeria">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">El local</p>
+          <h2 id="titulo-galeria">Así se ve el oficio</h2>
+          <p>Fotos de stock (Unsplash y Pexels) usadas solo para esta demostración. En un sitio real irían las fotos del negocio.</p>
+        </div>
+        <div class="gallery-grid">
+          <a href="img/gal-interior.jpg" data-lightbox>
+            <img src="img/gal-interior.jpg" alt="Interior de barbería con dos sillas ocupadas y letreros en la pared" width="900" height="600">
+          </a>
+          <a href="img/gal-afeitado.jpg" data-lightbox>
+            <img src="img/gal-afeitado.jpg" alt="Afeitado clásico con navaja sobre un cliente recostado" width="900" height="600">
+          </a>
+          <a href="img/gal-fade.jpg" data-lightbox>
+            <img src="img/gal-fade.jpg" alt="Barbero terminando un corte fade con peine y tijera" width="900" height="600">
+          </a>
+          <a href="img/gal-herramientas.jpg" data-lightbox>
+            <img src="img/gal-herramientas.jpg" alt="Máquinas, tijeras, peine y productos de barbería sobre una tabla" width="900" height="600">
+          </a>
+          <a href="img/gal-barba.jpg" data-lightbox>
+            <img src="img/gal-barba.jpg" alt="Perfilado de barba con tijera" width="900" height="1350">
+          </a>
+          <a href="img/gal-tijeras.jpg" data-lightbox>
+            <img src="img/gal-tijeras.jpg" alt="Tijeras de barbería colgadas en una barra de madera" width="900" height="600">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion" aria-labelledby="titulo-ubicacion">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Cómo llegar</p>
+          <h2 id="titulo-ubicacion">Horario y ubicación</h2>
+          <p>Dirección y mapa de ejemplo en el barrio San Antonio, Cali. No corresponden a un local real.</p>
+        </div>
+        <div class="split">
+          <div class="panel">
+            <p class="status" id="estado-horario" data-status><span class="status-dot"></span> <span class="status-text">Consultando horario…</span></p>
+            <h3>Horario de atención</h3>
+            <ul class="hours-list">
+              <li><strong>Lunes a viernes</strong><span>9:00 a. m. – 8:00 p. m.</span></li>
+              <li><strong>Sábado</strong><span>9:00 a. m. – 7:00 p. m.</span></li>
+              <li><strong>Domingo</strong><span>10:00 a. m. – 3:00 p. m.</span></li>
+            </ul>
+            <p class="form-help" style="margin-top:1rem">Horario de ejemplo. El aviso de abierto o cerrado usa la hora de Colombia (UTC-5).</p>
+          </div>
+          <div class="panel">
+            <h3>Dónde estamos</h3>
+            <p class="address">
+              Calle 2 Oeste # 4-18, San Antonio<br>
+              Frente al parque, Cali, Valle del Cauca
+              <small>Dirección de ejemplo — no es un local real</small>
+            </p>
+            <p class="address">WhatsApp de ejemplo: <a href="https://wa.me/573000000000?text=Hola%2C%20quiero%20reservar%20un%20corte" target="_blank" rel="noopener">+57 300 000 0000</a></p>
+            <div class="map-wrap">
+              <a href="https://www.openstreetmap.org/?mlat=3.4467&amp;mlon=-76.5452#map=16/3.4467/-76.5452" target="_blank" rel="noopener">
+                <img src="img/mapa-san-antonio.jpg" width="1000" height="440" alt="Mapa de ejemplo: pin en el barrio San Antonio, Cali, frente al parque">
+              </a>
+            </div>
+            <p class="form-help" style="margin-top:0.7rem">
+              <a href="https://www.openstreetmap.org/?mlat=3.4467&amp;mlon=-76.5452#map=16/3.4467/-76.5452" target="_blank" rel="noopener">Abrir el mapa más grande</a>
+              · © OpenStreetMap
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="opiniones" aria-labelledby="titulo-opiniones">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Lo que dirían los clientes</p>
+          <h2 id="titulo-opiniones">Opiniones</h2>
+          <p>Estos comentarios son de ejemplo, escritos para la demostración. No son reseñas reales.</p>
+          <span class="note">Testimonios de ejemplo</span>
+        </div>
+        <div class="quotes">
+          <blockquote class="quote">
+            <p>“Quedé muy bien con el fade y el trato es de primera. Ya sería mi barbería de confianza en San Antonio.”</p>
+            <footer>
+              <strong>Andrés M.</strong>
+              <span>Testimonio de ejemplo · Corte fade</span>
+            </footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Reservé por WhatsApp en un momento y no tuve que esperar. El afeitado con navaja está impecable.”</p>
+            <footer>
+              <strong>Julián R.</strong>
+              <span>Testimonio de ejemplo · Afeitado clásico</span>
+            </footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Llevé a mi hijo y lo atendieron con paciencia. El local se ve ordenado y los precios están claros.”</p>
+            <footer>
+              <strong>Carolina G.</strong>
+              <span>Testimonio de ejemplo · Corte para niños</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservar" aria-labelledby="titulo-reservar">
+      <div class="wrap booking-grid">
+        <div class="section-head">
+          <p class="eyebrow">Agenda tu visita</p>
+          <h2 id="titulo-reservar">Reserva por WhatsApp</h2>
+          <p>Elige el servicio, el día y la hora. Te abrimos WhatsApp con el mensaje ya escrito para que solo lo envíes. El número es de ejemplo: +57 300 000 0000.</p>
+        </div>
+        <form class="form" id="form-reserva" novalidate>
+          <div class="field">
+            <label for="nombre">Tu nombre</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" required placeholder="Ej. Camilo Pérez" maxlength="80">
+          </div>
+          <div class="field">
+            <label for="servicio">Servicio</label>
+            <select id="servicio" name="servicio" required>
+              <option value="">Elige un servicio</option>
+              <option value="Corte clásico ($25.000)">Corte clásico — $25.000</option>
+              <option value="Fade / diseño ($35.000)">Fade / diseño — $35.000</option>
+              <option value="Corte + barba ($42.000)">Corte + barba — $42.000</option>
+              <option value="Perfilado de barba ($18.000)">Perfilado de barba — $18.000</option>
+              <option value="Afeitado con navaja ($28.000)">Afeitado con navaja — $28.000</option>
+              <option value="Corte para niños ($20.000)">Corte para niños — $20.000</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="fecha">Fecha</label>
+              <input id="fecha" name="fecha" type="date" required>
+            </div>
+            <div class="field">
+              <label for="hora">Hora</label>
+              <select id="hora" name="hora" required>
+                <option value="">Elige una hora</option>
+              </select>
+            </div>
+          </div>
+          <p class="form-error" id="form-error" role="alert"></p>
+          <p class="form-help">Al continuar se abre WhatsApp con tu reserva lista. Este botón usa un número de ejemplo, no de un negocio real.</p>
+          <button class="btn btn-whatsapp" type="submit">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.87 9.87 0 0 0 12.04 2C6.5 2 2.02 6.48 2.02 12c0 1.77.46 3.45 1.28 4.95L2 22l5.2-1.36A9.94 9.94 0 0 0 12.04 22c5.52 0 10-4.48 10-10 0-2.67-1.04-5.18-2.99-7.09zm-7.01 15.4c-1.52 0-2.98-.4-4.25-1.15l-.3-.18-3.08.8.82-3-.2-.31a8.26 8.26 0 0 1-1.27-4.4c0-4.57 3.72-8.29 8.3-8.29 2.21 0 4.29.86 5.85 2.42a8.22 8.22 0 0 1 2.43 5.87c0 4.57-3.73 8.24-8.3 8.24zm4.55-6.2c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.84-.2-.48-.4-.41-.56-.42h-.48c-.16 0-.43.06-.65.31-.22.24-.85.83-.85 2.02 0 1.19.87 2.34 1 2.5.12.16 1.7 2.59 4.13 3.63.58.25 1.03.4 1.38.51.58.18 1.1.16 1.52.1.46-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.10-.22-.16-.47-.29z"/></svg>
+            Enviar reserva por WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h3>Barbería El Patrón</h3>
+          <p>Barbería ficticia de demostración en Cali, Colombia. Esta página muestra cómo se ve un sitio para un negocio local, con catálogo, ubicación y reserva por WhatsApp.</p>
+        </div>
+        <div>
+          <h3>Contacto de ejemplo</h3>
+          <ul>
+            <li>WhatsApp: +57 300 000 0000</li>
+            <li>Calle 2 Oeste # 4-18, San Antonio, Cali</li>
+            <li>Ningún dato de esta ficha es real</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Horario de ejemplo</h3>
+          <ul>
+            <li>Lun–vie: 9:00 a. m. – 8:00 p. m.</li>
+            <li>Sábado: 9:00 a. m. – 7:00 p. m.</li>
+            <li>Domingo: 10:00 a. m. – 3:00 p. m.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="legal">Sitio de demostración creado como muestra de página web para un negocio en Cali. Fotos de Unsplash y Pexels, de uso libre. © <span id="anio"></span> Barbería El Patrón (ficticia).</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/573000000000?text=Hola%2C%20quiero%20reservar%20un%20corte" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp (número de ejemplo)">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.87 9.87 0 0 0 12.04 2C6.5 2 2.02 6.48 2.02 12c0 1.77.46 3.45 1.28 4.95L2 22l5.2-1.36A9.94 9.94 0 0 0 12.04 22c5.52 0 10-4.48 10-10 0-2.67-1.04-5.18-2.99-7.09zm-7.01 15.4c-1.52 0-2.98-.4-4.25-1.15l-.3-.18-3.08.8.82-3-.2-.31a8.26 8.26 0 0 1-1.27-4.4c0-4.57 3.72-8.29 8.3-8.29 2.21 0 4.29.86 5.85 2.42a8.22 8.22 0 0 1 2.43 5.87c0 4.57-3.73 8.24-8.3 8.24zm4.55-6.2c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.84-.2-.48-.4-.41-.56-.42h-.48c-.16 0-.43.06-.65.31-.22.24-.85.83-.85 2.02 0 1.19.87 2.34 1 2.5.12.16 1.7 2.59 4.13 3.63.58.25 1.03.4 1.38.51.58.18 1.1.16 1.52.1.46-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.10-.22-.16-.47-.29z"/></svg>
+  </a>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" type="button" aria-label="Cerrar foto">&times;</button>
+    <img alt="">
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
